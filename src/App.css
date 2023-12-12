@@ -1,0 +1,52 @@
+.App {
+  background: #d7eceb;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  left: 35em;
+  position: relative;
+  margin: 3em;
+  border: 1px solid;
+  border-radius: 12px
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  max-width: 400px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.Toastify__toast-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
